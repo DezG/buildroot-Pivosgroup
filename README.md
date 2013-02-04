@@ -27,7 +27,16 @@ to python 2.7. Earlier pythons (or python3) will not work.
 
 # Build
 
+For XIOS DS _M1_ version
+
 ```shell
 % make amlogic_xios-xbmc_defconfig
+% make
+```
+
+For XIOS DS _M3_ version
+
+```shell
+% make amlogic_xios_m3-xbmc_defconfig
 % make
 ```
