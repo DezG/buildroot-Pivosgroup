@@ -6,7 +6,7 @@
 
 XBMC_VERSION = ff8ddfd80a3343b49cd232afac2aacbf83d9d5ae
 XBMC_SITE_METHOD = git
-XBMC_SITE = git://github.com/Pivosgroup/xbmc.git
+XBMC_SITE = git://github.com/DezG/xbmc.git
 XBMC_INSTALL_STAGING = YES
 XBMC_INSTALL_TARGET = YES
 
@@ -56,7 +56,7 @@ define XBMC_INSTALL_ETC
 endef
 
 define XBMC_INSTALL_SPLASH
-  cp -f package/thirdparty/xbmc/xios_splash.png $(TARGET_DIR)/usr/share/xbmc/media/Splash.png
+  cp -f package/thirdparty/xbmc/Splash.png $(TARGET_DIR)/usr/share/xbmc/media/Splash.png
 endef
 
 define XBMC_CLEAN_UNUSED_ADDONS
