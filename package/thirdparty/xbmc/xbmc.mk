@@ -4,7 +4,7 @@
 #
 #################################################################################
 
-XBMC_VERSION = ff8ddfd80a3343b49cd232afac2aacbf83d9d5ae
+XBMC_VERSION = fbe68b2b8714f91db8ae3ff1692de4bd3bb2b71d
 XBMC_SITE_METHOD = git
 XBMC_SITE = git://github.com/DezG/xbmc.git
 XBMC_INSTALL_STAGING = YES
